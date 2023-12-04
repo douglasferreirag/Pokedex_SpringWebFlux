@@ -22,6 +22,7 @@ public class PokedexApplication {
 
 	@Bean
 	CommandLineRunner init (ReactiveMongoOperations operations, PokemonRepository repository)
+
 	{
 
 		return args -> {
